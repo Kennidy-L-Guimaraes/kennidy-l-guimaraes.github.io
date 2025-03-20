@@ -1,0 +1,19 @@
+.Home {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+}
+
+.Home h1{
+   width: 100%;
+   height: auto;
+   font-size: 3rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(51, 51, 51);
+   text-align: center;
+}
+
+.Home img{
+    width: 30%;
+    height: 20%;
+}
