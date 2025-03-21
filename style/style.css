@@ -1,19 +1,27 @@
-.Home {
-    background-color: rgb(255, 255, 255);
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.home header {
+    width: 100%;
+    background: radial-gradient(circle, rgb(7, 65, 65), rgb(2, 22, 22));
+    height: 30em; /* Ajuste conforme necessário */
+    display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 }
 
-.Home h1{
-   width: 100%;
-   height: auto;
-   font-size: 3rem;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: rgb(51, 51, 51);
-   text-align: center;
+.home header .header-image, .header-text{
+    width: 40%;
+    height: 20em;
+    background-color: aqua;
+    margin: 5%;
 }
-
-.Home img{
+.home header .header-image{
     width: 30%;
-    height: 20%;
+    height: 25em;
+    background-color: aqua;
+    margin: 2%;
 }
